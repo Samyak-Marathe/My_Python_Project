@@ -14,7 +14,7 @@ The training script (PINN_W.py) uses a heavy-duty two-stage approach: Adam to bu
 
 Run main.py! I built a real-time pygame environment where you can actually watch the comparison of the predicted solutions and the true solution for different modes (training was done upto 5 modes for a fix value of velocity which is not a model parameter).
 
-Additionally, animations are also included in the animation folder to see the simulation.
+Additionally, animations are also included in the animation folder to see the simulation. Name of the sim files represent the type of solution. Green one is true solution while Red one is predicted using PINN+RFF. Please try to understand the name of the file and the corresponding simulation. I could not come up with a better way to explain lol.
 
 In the future, I plan to add more projects solving interesting physical systems using ML models. However, for this one, I haven't written anything too heavy here in the Read Me.
 
